@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.header{
+    background-color: lightgray;
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+
+}
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.coinDiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+   margin: 3px;
+   padding: 10px;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.coinDiv:hover{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.15);
+}
+.outerCoinDiv{
+    display: flex;
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;
+
+
+}
+.searchBar{
+    height: 30px;
+    width: 250px;
+    margin:10px ;
+    border-radius:5px ;
+  
+}
+.detailsBtn{
+padding: 5px;
+cursor: pointer;
+background-color: transparent;
+border-radius: 5px;
+border: 1px solid violet;
+color:violet;
+font-weight: bold;
+margin: 5px;
+}
+
+@media(max-width : 480px){
+
+    .loadingDiv{
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.totalDiv{
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+
+}
+
+.outerLineDiv{
+    width: 700px;
+    height: 500px;
+    
+}
+.line{
+    width: 800px;
+}
+
+@media(max-width: 480px){
+   
+.outerLineDiv{
+    width: 490px;
+    height: 400px;
+   overflow-x: scroll;
+   margin-bottom: 10px;
+}
+.linediv{
+    height: 400px;
+    width: 700px;
+   
+
+}
+
+}
+
+.NavLink{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    color: blue;
+    margin-bottom:5px ;
+}
+.BiSolidLeftArrow{
+    position: sticky;
+    left: 5px;
+    top: 10px;
+}
+.discription{
+    width: 700px;
+}
